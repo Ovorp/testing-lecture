@@ -37,3 +37,5 @@ describe('bankAccount', () => {
     expect(bankAccount.balance).toBe(newBalance);
   });
 });
+
+// how does jest.spyOn know what get call to target.
